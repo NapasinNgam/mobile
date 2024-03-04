@@ -1,0 +1,7 @@
+Array
+(
+    [title] => Bhoothaddam Bhaskar Narayana
+    [year] => 2024
+    [genres] => Thriller, Fantasy, Crime
+    [url] => https://image.tmdb.org/t/p/w500/vtyxaeFdWCURzNYxtmeIo0yZO3B.jpg
+)

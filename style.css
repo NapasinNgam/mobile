@@ -1,0 +1,258 @@
+.box{
+    border: none;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 0px 10px rgba(0,0.3,0.3, 0.3);
+    margin-top: 20px; 
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px 5px 10px 0px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 15px;
+    display: block;
+    box-sizing: border-box;
+     
+}
+
+a {
+    text-decoration: none;
+}
+
+.box image{
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    display: flex;
+}
+
+header{
+    border: none;
+    padding-top: none;
+    position: fixed
+}
+
+.filter_list{
+    background-color: beige;
+    box-sizing: content-box;
+    padding-bottom: 10px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    height: 75px;
+}
+
+.checkboxlist{
+    justify-content: space-around;
+    display: flex;
+}
+
+.filterbutton{
+    margin-bottom: 5px;
+}
+
+
+.GoBtn{
+    display: inline;
+    box-sizing: border-box;
+}
+
+.Screen{
+    height: 100vh;
+    height: -webkit-fill-available;
+    width: 100%;
+    padding: 80px 5px 75px 5px;
+    justify-content: center;
+    background-color:#f5f5f5;
+    min-height: 600px;
+}
+
+.Header{
+    display: flex;
+}
+
+.detailbutton {
+    text-decoration: none;
+    color:black ;
+}
+
+h3 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.Menu{
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    background-color: rgb(230, 230, 230);
+    color: rgb(15, 15, 15);
+    box-sizing: content-box;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.Menu img {
+    border-radius: 15px 15px 0 0;
+    display: block;
+    object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+}
+
+.MenuSection {
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    scroll-snap-type: x mandatory;
+    -ms-verrflow-style: none;
+    overflow: -moz-scollbars-none;
+}
+
+.MenuSection::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.MenuSection_item{
+    scroll-snap-align: start;
+    width: 250px;
+    height: 250px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.Rating {
+    margin-top: 20px;
+    box-sizing: content-box;
+    width: fit-content;
+    padding-left: 20px ;
+    padding-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Screen_Rest{
+    height: 100vh;
+    height: -webkit-fill-available;
+    width: 100%;
+    padding: 20px 5px 100px 5px;
+    justify-content: center;
+    background-color:#f5f5f5;
+    box-sizing: border-box;
+    min-height: 750px;
+    
+}
+
+.Rating img{
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.Menu h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    user-select: none;
+    pointer-events: none;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    margin-top: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu li {
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+
+.home-icon img,
+.fav-icon img,
+.history-icon img,
+.profile-icon img {
+    width: 20px;
+}
+
+.HeaderDetail {
+    padding: 10px 0px 15px 10px;
+    width: 100%;
+    height: 30px;
+    z-index: 10;
+    background-color: grey !important;
+    background-image: linear-gradient(grey,#f5f5f5);
+    opacity: 70%;
+    z-index: 10;
+}
+
+.HeaderDetail a{ 
+    color: #f0f0f0;
+    z-index: 10;
+}
+
+.Ticket {
+    background-repeat: no-repeat;
+    background-image: url('Ticket.png'); 
+    width: 100%;
+    min-height: 475px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10px;
+}
+
+.ScreenMovie{
+    height: max-content;
+    height: -webkit-fill-available;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+    background-color:#f5f5f5;
+    min-height: 600px;
+}
+
+.MovieCover {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    opacity: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.MovieCover img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
